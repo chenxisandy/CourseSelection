@@ -1,0 +1,380 @@
+{
+  "students": [
+    {
+      "courseList": [
+        1,
+        2
+      ],
+      "faculty": "软件学院",
+      "id": 201817142,
+      "major": "软件工程",
+      "name": "朱孝曦",
+      "password": "536",
+      "studentId": "U201817142"
+    },
+    {
+      "courseList": [
+        1,
+        3
+      ],
+      "faculty": "软件学院",
+      "id": 201817143,
+      "major": "软件工程",
+      "name": "鲁清新",
+      "password": "536",
+      "studentId": "U201817143"
+    },
+    {
+      "courseList": [
+        2
+      ],
+      "faculty": "软件学院",
+      "id": 201817149,
+      "major": "软件工程",
+      "name": "周斌斌",
+      "password": "536",
+      "studentId": "U201817149"
+    },
+    {
+      "courseList": [
+        1,
+        2
+      ],
+      "faculty": "软件学院",
+      "id": 201817144,
+      "major": "软件工程",
+      "name": "尹奥禧",
+      "password": "531",
+      "studentId": "U201817144"
+    },
+    {
+      "courseList": [
+        3,
+        4
+      ],
+      "faculty": "软件学院",
+      "id": 201817145,
+      "major": "软件工程",
+      "name": "盘凌孜",
+      "password": "536",
+      "studentId": "U201817145"
+    },
+    {
+      "courseList": [
+        6,
+        7
+      ],
+      "faculty": "软件学院",
+      "id": 201817146,
+      "major": "软件工程",
+      "name": "叶絮雷",
+      "password": "535",
+      "studentId": "U201817146"
+    },
+    {
+      "courseList": [
+        2,
+        3
+      ],
+      "faculty": "软件学院",
+      "id": 201817161,
+      "major": "软件工程",
+      "name": "阿这",
+      "password": "536",
+      "studentId": "U201817161"
+    },
+    {
+      "courseList": [
+        6,
+        7
+      ],
+      "faculty": "软件学院",
+      "id": 201817162,
+      "major": "软件工程",
+      "name": "神秘人",
+      "password": "536",
+      "studentId": "U201817162"
+    },
+    {
+      "courseList": [
+        3,
+        4
+      ],
+      "faculty": "软件学院",
+      "id": 201817163,
+      "major": "软件工程",
+      "name": "杨木帆",
+      "password": "536",
+      "studentId": "U201817163"
+    },
+    {
+      "courseList": [
+        7,
+        8
+      ],
+      "faculty": "软件学院",
+      "id": 201817164,
+      "major": "软件工程",
+      "name": "特朗普",
+      "password": "536",
+      "studentId": "U201817164"
+    },
+    {
+      "courseList": [
+        4,
+        5
+      ],
+      "faculty": "软件学院",
+      "id": 201817165,
+      "major": "软件工程",
+      "name": "盘大林",
+      "password": "536",
+      "studentId": "U201817165"
+    },
+    {
+      "courseList": [
+        5,
+        6
+      ],
+      "faculty": "软件学院",
+      "id": 201817166,
+      "major": "软件工程",
+      "name": "马云",
+      "password": "536",
+      "studentId": "U201817166"
+    },
+    {
+      "courseList": [
+        2,
+        3
+      ],
+      "faculty": "软件学院",
+      "id": 201817167,
+      "major": "软件工程",
+      "name": "川建国",
+      "password": "536",
+      "studentId": "U201817167"
+    },
+    {
+      "courseList": [
+        3,
+        4
+      ],
+      "faculty": "软件学院",
+      "id": 201817168,
+      "major": "软件工程",
+      "name": "奈斯",
+      "password": "536",
+      "studentId": "U201817168"
+    },
+    {
+      "courseList": [
+        6,
+        7
+      ],
+      "faculty": "软件学院",
+      "id": 201817169,
+      "major": "软件工程",
+      "name": "李雅婷",
+      "password": "536",
+      "studentId": "U201817169"
+    },
+    {
+      "courseList": [
+        1,
+        2
+      ],
+      "faculty": "软件学院",
+      "id": 201817170,
+      "major": "软件工程",
+      "name": "李泽豪",
+      "password": "536",
+      "studentId": "U201817170"
+    },
+    {
+      "courseList": [
+        3,
+        4
+      ],
+      "faculty": "软件学院",
+      "id": 201817171,
+      "major": "软件工程",
+      "name": "蒋伟超",
+      "password": "536",
+      "studentId": "U201817171"
+    },
+    {
+      "courseList": [
+        5,
+        6
+      ],
+      "faculty": "软件学院",
+      "id": 201817172,
+      "major": "软件工程",
+      "name": "天啊",
+      "password": "536",
+      "studentId": "U201817172"
+    },
+    {
+      "courseList": [
+        4,
+        5
+      ],
+      "faculty": "软件学院",
+      "id": 201817173,
+      "major": "软件工程",
+      "name": "无名氏",
+      "password": "536",
+      "studentId": "U201817173"
+    },
+    {
+      "courseList": [
+        7,
+        8
+      ],
+      "faculty": "软件学院",
+      "id": 201817174,
+      "major": "软件工程",
+      "name": "光头强",
+      "password": "536",
+      "studentId": "U201817174"
+    }
+  ],
+  "courses": [
+    {
+      "address": "东九D301",
+      "description": "啦啦啦啦啦啦啦啦啦啦啦啦，你是卖报的小行家",
+      "id": 1,
+      "lessons": 40,
+      "score": 2.0,
+      "studentList": [
+        201817142,
+        201817143,
+        201817144,
+        201817170
+      ],
+      "teacher": "不知道",
+      "time": "周一周三第一节",
+      "title": "华科组成原理"
+    },
+    {
+      "address": "东九D101",
+      "description": "啦啦啦啦啦啦啦啦啦啦啦啦，谁是卖报的小行家",
+      "id": 2,
+      "lessons": 30,
+      "score": 1.5,
+      "studentList": [
+        201817142,
+        201817149,
+        201817144,
+        201817170,
+        201817167,
+        201817161
+      ],
+      "teacher": "是谁呀",
+      "time": "周二周三第三四节",
+      "title": "卖报理论"
+    },
+    {
+      "address": "东九D302",
+      "description": "啦啦啦啦啦啦啦啦啦啦啦啦，他是卖报的小行家",
+      "id": 3,
+      "lessons": 25,
+      "score": 3.0,
+      "studentList": [
+        201817143,
+        201817145,
+        201817171,
+        201817168,
+        201817167,
+        201817163,
+        201817161
+      ],
+      "teacher": "是谁呀",
+      "time": "周四周五第七八节",
+      "title": "数字电路"
+    },
+    {
+      "address": "东九D302",
+      "description": "啦啦啦啦啦啦啦啦啦啦啦啦，他是卖报的小行家",
+      "id": 4,
+      "lessons": 35,
+      "score": 3.5,
+      "studentList": [
+        201817145,
+        201817173,
+        201817171,
+        201817168,
+        201817163
+      ],
+      "teacher": "太强啦",
+      "time": "周四周五第一二节",
+      "title": "微积分"
+    },
+    {
+      "address": "东九C401",
+      "description": "啦啦啦啦啦啦啦啦啦啦啦啦，他是卖报的小行家",
+      "id": 5,
+      "lessons": 20,
+      "score": 2.5,
+      "studentList": [
+        201817173,
+        201817172,
+        201817166,
+        201817165
+      ],
+      "teacher": "强者",
+      "time": "周三周五第五六节",
+      "title": "软件体系结构"
+    },
+    {
+      "address": "东九D302",
+      "description": "啦啦啦啦啦啦啦啦啦啦啦啦，他是卖报的小行家",
+      "id": 6,
+      "lessons": 35,
+      "score": 3.5,
+      "studentList": [
+        201817172,
+        201817146,
+        201817169,
+        201817166,
+        201817165,
+        201817162
+      ],
+      "teacher": "太强啦",
+      "time": "周一周二第三四节",
+      "title": "大学物理"
+    },
+    {
+      "address": "东九D302",
+      "description": "啦啦啦啦啦啦啦啦啦啦啦啦，他是卖报的小行家",
+      "id": 7,
+      "lessons": 25,
+      "score": 3.0,
+      "studentList": [
+        201817174,
+        201817146,
+        201817169,
+        201817164,
+        201817162
+      ],
+      "teacher": "很强",
+      "time": "周一周五第一二节",
+      "title": "操作系统原理"
+    },
+    {
+      "address": "东十二302",
+      "description": "啦啦啦啦啦啦啦啦啦啦啦啦，他是卖报的小行家",
+      "id": 8,
+      "lessons": 30,
+      "score": 3.5,
+      "studentList": [
+        201817174,
+        201817164
+      ],
+      "teacher": "太强啦",
+      "time": "周四周五第一二节",
+      "title": "数据库"
+    }
+  ]
+}

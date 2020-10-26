@@ -1,0 +1,56 @@
+{
+  "students": [
+    {
+      "courseList": [
+        1,
+        2
+      ],
+      "faculty": "软件学院",
+      "id": 201817142,
+      "major": "软件工程",
+      "name": "朱孝曦",
+      "password": "123",
+      "studentId": "U201817142"
+    },
+    {
+      "courseList": [
+        1
+      ],
+      "faculty": "软件学院",
+      "id": 201817143,
+      "major": "软件工程",
+      "name": "鲁清新",
+      "password": "456",
+      "studentId": "U201817143"
+    }
+  ],
+  "courses": [
+    {
+      "address": "东九D301",
+      "description": "啦啦啦啦啦啦啦啦啦啦啦啦，你是卖报的小行家",
+      "id": 1,
+      "lessons": 40,
+      "score": 2.0,
+      "studentList": [
+        201817142,
+        201817143
+      ],
+      "teacher": "不知道",
+      "time": "周一周三第一节",
+      "title": "华科组成原理"
+    },
+    {
+      "address": "东九D101",
+      "description": "啦啦啦啦啦啦啦啦啦啦啦啦，谁是卖报的小行家",
+      "id": 2,
+      "lessons": 30,
+      "score": 1.5,
+      "studentList": [
+        201817142
+      ],
+      "teacher": "是谁呀",
+      "time": "周二周三第三四节",
+      "title": "卖报理论"
+    }
+  ]
+}
