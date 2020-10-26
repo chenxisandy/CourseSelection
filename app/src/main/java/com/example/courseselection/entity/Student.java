@@ -76,6 +76,10 @@ public class Student implements Serializable {
         courseList.add(courseId);
     }
 
+    public void removeCourse(long courseId) {
+        courseList.remove(courseId);
+    }
+
     public String getPassword() {
         return password;
     }

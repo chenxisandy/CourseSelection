@@ -84,6 +84,11 @@ public class Course implements Serializable {
         student.addCourse(this.id);
     }
 
+    public void removeStudent(Student student) {
+        studentList.remove(Integer.valueOf(student.getId()));
+        student.removeCourse(id);
+    }
+
     public String getAddress() {
         return address;
     }

@@ -37,15 +37,28 @@ public class DetailActivity extends AppCompatActivity {
         repository = Repository.getInstance();
         getFromIntent();
         initView();
-        Button chooseButton = findViewById(R.id.choose_button);
+        final Button chooseButton = findViewById(R.id.choose_button);
+        if (repository.CourseHasStudent(studentId, course)) {
+            chooseButton.setBackgroundResource(R.color.cyan);
+            chooseButton.setText(Constant.REMOVE_BUTTON);
+        } else {
+            chooseButton.setBackgroundResource(R.color.light_blue);
+            chooseButton.setText(Constant.ADD_BUTTON);
+        }
         chooseButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Student student = repository.getStudentById(studentId);
                 if (repository.CourseHasStudent(studentId, course)) {
-                    Toast.makeText(DetailActivity.this, "您已经选择该课程，请不要再点击", Toast.LENGTH_SHORT).show();
+                    course.removeStudent(student);
+                    Toast.makeText(DetailActivity.this, "退选成功", Toast.LENGTH_SHORT).show();
+                    chooseButton.setBackgroundResource(R.color.light_blue);
+                    chooseButton.setText(Constant.ADD_BUTTON);
                 } else {
-                    course.addStudent(repository.getStudentById(studentId));
+                    course.addStudent(student);
                     Toast.makeText(DetailActivity.this, "添加课程成功", Toast.LENGTH_SHORT).show();
+                    chooseButton.setBackgroundResource(R.color.cyan);
+                    chooseButton.setText(Constant.REMOVE_BUTTON);
                 }
             }
         });
