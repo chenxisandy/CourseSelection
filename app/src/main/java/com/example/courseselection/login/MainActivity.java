@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void readTest() {
         //从assets获取json文件
-        InputStreamReader isr = new InputStreamReader(this.getClass().getClassLoader().getResourceAsStream("assets/" + "data1.json"));
+        InputStreamReader isr = new InputStreamReader(this.getClass().getClassLoader().getResourceAsStream("assets/" + "data2.json"));
         //字节流转字符流
         BufferedReader bfr = new BufferedReader(isr);
         String line = "";
